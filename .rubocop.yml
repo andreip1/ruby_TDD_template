@@ -1,0 +1,333 @@
+# Naming/AccessorMethodName
+Naming/AccessorMethodName:
+  Enabled: false
+
+# Style/Alias
+Style/Alias:
+  Enabled: false
+
+# Style/ArrayJoin
+Style/ArrayJoin:
+  Enabled: false
+
+# Style/AsciiComments
+Style/AsciiComments:
+  Enabled: false
+
+# Naming/AsciiIdentifiers
+Naming/AsciiIdentifiers:
+  Enabled: false
+
+# Style/Attr
+Style/Attr:
+  Enabled: false
+
+# Metrics/BlockNesting
+Metrics/BlockNesting:
+  Enabled: false
+
+# Style/CaseEquality
+Style/CaseEquality:
+  Enabled: false
+
+# Style/CharacterLiteral
+Style/CharacterLiteral:
+  Enabled: false
+
+# Style/ClassAndModuleChildren
+Style/ClassAndModuleChildren:
+  Enabled: true
+  EnforcedStyle: nested
+
+# Metrics/ClassLength
+Metrics/ClassLength:
+  Enabled: false
+
+# Metrics/ModuleLength
+Metrics/ModuleLength:
+  Enabled: false
+
+# Style/ClassVars
+Style/ClassVars:
+  Enabled: false
+
+# Style/CollectionMethods
+Style/CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    find: detect
+    inject: reduce
+    collect: map
+    find_all: select
+
+# Style/ColonMethodCall
+Style/ColonMethodCall:
+  Enabled: false
+
+# Style/CommentAnnotation
+Style/CommentAnnotation:
+  Enabled: false
+
+# Metrics/AbcSize
+Metrics/AbcSize:
+  Enabled: false
+
+# Metrics/BlockLength
+Metrics/BlockLength:
+  CountComments: true
+  Max: 25
+  Exclude:
+    - "spec/**/*"
+
+# Metrics/CyclomaticComplexity
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+# Style/PreferredHashMethods
+Style/PreferredHashMethods:
+  Enabled: false
+
+# Style/Documentation
+Style/Documentation:
+  Enabled: false
+
+# Style/DoubleNegation
+Style/DoubleNegation:
+  Enabled: false
+
+# Style/EachWithObject
+Style/EachWithObject:
+  Enabled: false
+
+# Style/EmptyLiteral
+Style/EmptyLiteral:
+  Enabled: false
+
+# Style/Encoding
+Style/Encoding:
+  Enabled: false
+
+# Style/EvenOdd
+Style/EvenOdd:
+  Enabled: false
+
+# Naming/FileName
+Naming/FileName:
+  Enabled: false
+
+# Style/FrozenStringLiteralComment
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# Lint/FlipFlop
+Lint/FlipFlop:
+  Enabled: false
+
+# Style/FormatString
+Style/FormatString:
+  Enabled: false
+
+# Style/GlobalVars
+Style/GlobalVars:
+  Enabled: false
+
+# Style/GuardClause
+Style/GuardClause:
+  Enabled: false
+
+# Style/IfUnlessModifier
+Style/IfUnlessModifier:
+  Enabled: false
+
+# Style/IfWithSemicolon
+Style/IfWithSemicolon:
+  Enabled: false
+
+# Style/InlineComment
+Style/InlineComment:
+  Enabled: false
+
+# Style/Lambda
+Style/Lambda:
+  Enabled: false
+
+# Style/LambdaCall
+Style/LambdaCall:
+  Enabled: false
+
+# Style/LineEndConcatenation
+Style/LineEndConcatenation:
+  Enabled: false
+
+# Metrics/MethodLength
+Metrics/MethodLength:
+  Enabled: false
+
+# Style/ModuleFunction
+Style/ModuleFunction:
+  Enabled: false
+
+# Style/MultilineBlockChain
+Style/MultilineBlockChain:
+  Enabled: false
+
+# Style/NegatedIf
+Style/NegatedIf:
+  Enabled: false
+
+# Style/NegatedWhile
+Style/NegatedWhile:
+  Enabled: false
+
+# Style/Next
+Style/Next:
+  Enabled: false
+
+# Style/NilComparison
+Style/NilComparison:
+  Enabled: false
+
+# Style/Not
+Style/Not:
+  Enabled: false
+
+# Style/NumericLiterals
+Style/NumericLiterals:
+  Enabled: false
+
+# Style/OneLineConditional
+Style/OneLineConditional:
+  Enabled: false
+
+# Naming/BinaryOperatorParameterName
+Naming/BinaryOperatorParameterName:
+  Enabled: false
+
+# Metrics/ParameterLists
+Metrics/ParameterLists:
+  Enabled: false
+
+# Style/PercentLiteralDelimiters
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+# Style/PerlBackrefs
+Style/PerlBackrefs:
+  Enabled: false
+
+# Naming/PredicateName
+Naming/PredicateName:
+  ForbiddenPrefixes:
+    - is_
+  Exclude:
+    - spec/**/*
+
+# Style/Proc
+Style/Proc:
+  Enabled: false
+
+# Style/RaiseArgs
+Style/RaiseArgs:
+  Enabled: false
+
+# Style/RegexpLiteral
+Style/RegexpLiteral:
+  Enabled: false
+
+# Style/Sample
+Style/Sample:
+  Enabled: false
+
+# Style/SelfAssignment
+Style/SelfAssignment:
+  Enabled: false
+
+# Style/SingleLineBlockParams
+Style/SingleLineBlockParams:
+  Enabled: false
+
+# Style/SingleLineMethods
+Style/SingleLineMethods:
+  Enabled: false
+
+# Style/SignalException
+Style/SignalException:
+  Enabled: false
+
+# Style/SpecialGlobalVars
+Style/SpecialGlobalVars:
+  Enabled: false
+
+# Style/StringLiterals
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  Enabled: true
+
+# Style/TrailingCommaInArguments
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+  Enabled: true
+
+# Style/TrailingCommaInArrayLiteral
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+  Enabled: true
+
+# Style/TrailingCommaInHashLiteral
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+  Enabled: true
+
+# Style/TrivialAccessors
+Style/TrivialAccessors:
+  Enabled: false
+
+# Style/VariableInterpolation
+Style/VariableInterpolation:
+  Enabled: false
+
+# Style/WhenThen
+Style/WhenThen:
+  Enabled: false
+
+# Style/WhileUntilModifier
+Style/WhileUntilModifier:
+  Enabled: false
+
+# Style/WordArray
+Style/WordArray:
+  Enabled: false
+
+# Layout/ParameterAlignment
+Layout/ParameterAlignment:
+  Enabled: false
+
+# Layout/ConditionPosition
+Layout/ConditionPosition:
+  Enabled: false
+
+# Layout/DotPosition
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+# Layout/ExtraSpacing
+Layout/ExtraSpacing:
+  Enabled: true
+
+# Layout/MultilineOperationIndentation
+Layout/MultilineOperationIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+# Layout/MultilineMethodCallIndentation
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+# Layout/InitialIndentation
+Layout/InitialIndentation:
+  Enabled: false
+
+# Layout/LineLength
+Layout/LineLength:
+  Max: 80
