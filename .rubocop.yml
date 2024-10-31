@@ -1,3 +1,6 @@
+AllCops:
+  NewCops: disable
+
 # Naming/AccessorMethodName
 Naming/AccessorMethodName:
   Enabled: false
