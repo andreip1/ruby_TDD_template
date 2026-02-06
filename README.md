@@ -1,4 +1,4 @@
-Not actively maintained
+Deprecated!
 # Ruby TDD Project Template with thoughtbot's RuboCop Configuration 
 
 This project template is set up for test-driven development (TDD) using Guard for automated test re-running, RSpec for writing and running tests, and RuboCop with thoughtbot’s style guide for code quality and style consistency.
